@@ -1,29 +1,17 @@
-# 🔍 skaner.py – SQLi + XSS Scanner
 
-Jednoplikowy skaner podatności webaplikacji skupiony na dwóch najgroźniejszych kategoriach wstrzykiwań z listy **OWASP Top 10:2021 (A03 – Injection)**.
-
----
 
 ## ⚡ Szybki start
 
 ```bash
 pip install requests colorama
+```
+
+```bash
 python skaner.py https://twoja-strona.pl
 ```
 
 ---
 
-## 📋 Wymagania
-
-| Wymaganie | Wersja |
-|-----------|--------|
-| Python    | 3.9+   |
-| requests  | 2.x    |
-| colorama  | 0.4+   |
-
-```bash
-pip install requests colorama
-```
 
 ---
 
@@ -236,7 +224,7 @@ print("Szukasz: " + html.escape(user_input))
 
 ---
 
-## ⚠️ Ważna informacja prawna
+## ⚠️ 
 
 Narzędzie służy wyłącznie do **autoryzowanego testowania własnych aplikacji** lub systemów, do których masz pisemną zgodę właściciela.
 
