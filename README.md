@@ -169,23 +169,6 @@ Przydatne w CI/CD:
 python skaner.py https://app.example.com || echo "UWAGA: wykryto podatności!"
 ```
 
----
-
-## 🧩 Struktura kodu
-
-```
-skaner.py
-├── Sekcja 1 – Payloady          (SQLi: 7, XSS: 8)
-├── Sekcja 2 – Model danych      (klasa Znalezisko)
-├── Sekcja 3 – Wykrywanie        (testuj_sqli, testuj_xss)
-├── Sekcja 4 – Ekstrakcja params (z URL + z HTML formularzy)
-├── Sekcja 5 – Generator raportów (TXT + JSON)
-├── Sekcja 6 – Terminal UI       (kolory, live feedback)
-├── Sekcja 7 – Logika skanowania (orchestrator)
-└── Sekcja 8 – Argument parser   (CLI)
-```
-
-Każda sekcja jest obszernie skomentowana po polsku bezpośrednio w kodzie.
 
 ---
 
